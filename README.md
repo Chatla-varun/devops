@@ -21,4 +21,4 @@ To get started with this repository, follow these steps:
 
 1. **Clone the Repository:** 
    ```bash
-   git clone [https://github.com/yourusername/devops-repository.git](https://github.com/devops-wizard16/devops.git)https://github.com/devops-wizard16/devops.git
+   git clone https://github.com/devops-wizard16/devops.git
