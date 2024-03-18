@@ -19,5 +19,5 @@ Locate the line PasswordAuthentication and change its value to yes:
 Open a terminal window on your local machine.
 Use the ssh command to connect to your Linux machine using the username and public IP address:
 
-    ```bash
-    ssh <username>@<public_ip_address>
+   ```bash
+   ssh <username>@<public_ip_address>
