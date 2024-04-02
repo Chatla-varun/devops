@@ -1,4 +1,3 @@
-rkdown
 # Git Commands Documentation
 
 ## Initializing a Git Repository
