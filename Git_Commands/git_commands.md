@@ -117,8 +117,15 @@ git push -u origin master (or main)
 
 ## Changing Remote Repository url in linux(https with ssh)
 
-To push the current branch and set the upstream:
+To change the remote repository url:
 
 ```bash
 git remote set-url origin ssh_url
+```
+## Generating ssh keys
+
+To generate sshkey( public and private):
+
+```bash
+ssh-keygen
 ```
