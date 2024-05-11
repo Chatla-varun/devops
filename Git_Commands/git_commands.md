@@ -114,3 +114,11 @@ To push the current branch and set the upstream:
 ```bash
 git push -u origin master (or main)
 ```
+
+## Changing Remote Repository url in linux(https with ssh)
+
+To push the current branch and set the upstream:
+
+```bash
+git remote set-url origin ssh_url
+```
