@@ -18,6 +18,8 @@ sudo apt-get install jenkins
 ``` bash
     https://www.jenkins.io/doc/book/installing/linux/#debianubuntu
 
+```
+
 #Apache2 server installation
 
 To install apache2 server systems, follow these steps:
