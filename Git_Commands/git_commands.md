@@ -135,3 +135,76 @@ To generate sshkey( public and private):
 ```bash
 ssh-keygen
 ```
+
+### Git Branch Commands:
+**List all local branches:**
+   ```bash
+   git branch
+   ```
+
+**Create a new branch:**
+   ```bash
+   git branch <branchname>
+   ```
+
+**Create a new branch from a specific commit:**
+   ```bash
+   git branch <branchname> <commit_sha>
+   ```
+
+**Create and switch to a new branch:**
+   ```bash
+   git checkout -b <branchname>
+   ```
+
+**List all branches (local and remote):**
+   ```bash
+   git branch -a
+   ```
+
+**Delete a local branch:**
+   ```bash
+   git branch -d <branchname>
+   ```
+
+**Delete a remote branch:**
+   ```bash
+   git push origin -d <branchname>
+   ```
+
+**Push a tag to the remote repository:**
+   ```bash
+   git push origin <tagname>
+   ```
+
+### Git Tag Commands:
+**List all tags:**
+   ```bash
+   git tag --list
+   ```
+
+**Create a new tag:**
+   ```bash
+   git tag <tagname>
+   ```
+
+**Create a new tag from a specific commit:**
+   ```bash
+   git tag <tagname> <commit_sha>
+   ```
+
+**Delete a local tag:**
+   ```bash
+   git tag -d <tagname>
+   ```
+
+**Delete a remote tag:**
+   ```bash
+   git push origin -d <tagname>
+   ```
+
+**Push a tag to the remote repository:**
+   ```bash
+   git push origin <tagname>
+   ```
+
