@@ -62,8 +62,14 @@ git push
 
 To fetch and merge changes from a remote repository:
 
+Pull the latest changes: Use the git pull command to fetch the latest changes from the remote repository and merge them into your local branch. If you're working on the main branch (or another branch where you want to pull changes), simply execute:
 ```bash
 git pull
+```
+
+If you're working on a specific branch and want to pull changes from a different branch (for example, pulling changes from the main branch into your current branch), you can specify the remote branch:
+```bash
+git pull origin main
 ```
 
 ## Configuring User Email and Name
