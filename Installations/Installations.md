@@ -19,6 +19,16 @@ sudo apt-get install jenkins
     https://www.jenkins.io/doc/book/installing/linux/#debianubuntu
 
 ```
+# Nodejs and Npm installation
+
+To install Jenkins on Debian/Ubuntu systems, follow these steps:
+
+```bash
+sudo apt update -y
+curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash - && sudo apt-get install -y nodejs
+
+
+```
 
 #Apache2 server installation
 
